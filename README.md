@@ -4,8 +4,12 @@
 
 Open the notebook in Google Colab:
 
-Upload q_hand_transformer.ipynb to Google Colab, or
+Upload q_code_interpretability.ipynb to Google Colab, or
 Use the "File" → "Upload notebook" option in Colab
+
+For test cases, click on the folder tab, click upload, then
+select `induction_head_test_cases.json` and `single_attention_head_test_cases.json`.
+
 Run all cells sequentially (Cell → Run All)
 
 Note: A GPU is not necessary for this task. If you're using Colab, you can select "Runtime" → "Change runtime type" and choose "None" as the hardware accelerator.
@@ -24,7 +28,7 @@ Note: A GPU is not necessary for this task. If you're using Colab, you can selec
     - `e_Z` -> `exp_scores`
     - `attn_scores` -> `attn_weights`
     - `XOV` -> `projected_values`
-    
+
 3. Cleaned Testing Code:
 - `pathlib` is being used for file paths
 - Using `.items()` to iterate over the test case dictionary instead of 
