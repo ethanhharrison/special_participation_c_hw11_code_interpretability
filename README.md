@@ -24,9 +24,7 @@ Note: A GPU is not necessary for this task. If you're using Colab, you can selec
     - `e_Z` -> `exp_scores`
     - `attn_scores` -> `attn_weights`
     - `XOV` -> `projected_values`
-- Changed variable names in `induction_copy_head`:
-    - 
-
+    
 3. Cleaned Testing Code:
 - `pathlib` is being used for file paths
 - Using `.items()` to iterate over the test case dictionary instead of 
